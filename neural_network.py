@@ -73,5 +73,5 @@ if __name__ == "__main__":
     print(nn.synaptic_weights)
 
     # Test the neural network with a new situation.
-    print ("Tring new input data [1, 0, 0 ] -> ?: ( output should be 1) ")
+    print ("Trying new input data [1, 0, 0 ] -> ?: ( output should be 1) ")
     print(nn.think(array([1, 0, 0])))
