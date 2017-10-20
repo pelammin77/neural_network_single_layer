@@ -75,10 +75,3 @@ if __name__ == "__main__":
     # Test the neural network with a new situation.
     print ("Tring new input data [1, 0, 0 ] -> ?: ( output should be 1) ")
     print(nn.think(array([1, 0, 0])))
-
-
-
-
-
-
-
