@@ -78,5 +78,5 @@ if __name__ == "__main__":
     print(nn.synaptic_weights)
 
     # Test the neural network with a new input
-    print ("Trying new input data [1, 0, 0 ] -> ?: ( output should be close to print(1) ")
-    print("result:",nn.think(array([1, 0, 0])))
+    print ("Trying new input data [1, 0, 0 ] -> ?: ( output should be close 1")
+    print("result:",nn.think(array([1, 0, 0]))) #output: 0.99993704
